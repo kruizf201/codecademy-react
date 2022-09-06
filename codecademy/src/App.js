@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./Styles.css";
 
-function App() {
+/*
+  INSTRUCTIONS:
+  Create a "todo"(add cities) app with the following criteria.
+    1. The user can add new cities
+    2. The user can remove existing cities items
+*/
+
+export default function App() {
+  const addCities = () => {
+    //Complete function
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello Codecademy!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <input placeholder="Add Item" item={item}></input>
+      <button >Add Item</button>
     </div>
   );
 }
-
-export default App;
